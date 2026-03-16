@@ -1,0 +1,31 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binary produced by this project (if built without -o)
+distributed-crawler
+
+# Coverage
+coverage.out
+
+# Dependency vendor folder (optional, ignore if not committing vendored deps)
+vendor/
+
+# Local runtime data
+/data/
+*.jsonl
+
+# Environment and local overrides
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VS Code workspace settings (keep shared settings out by default)
+.vscode/
