@@ -10,7 +10,7 @@ The system has three pieces:
 
 Redis is used as the shared queue and coordination layer between worker processes.
 
-## What This Project Shows
+## About the project
 
 - Distributed workers consuming from one queue
 - Concurrent crawling with Go goroutines
